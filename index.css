@@ -13,3 +13,63 @@
 .features-icons-icon i {
     font-size: 3rem;
 }
+
+/* Reglas para pantallas de hasta 600px (teléfonos móviles) */
+@media (max-width: 600px) {
+    #rightArrowIcon {
+        font-size: 1.5em;
+    }
+
+    .carousel-item {
+        height: 30vh;
+    }
+
+    .features-icons-icon i {
+        font-size: 2rem;
+    }
+}
+
+/* Reglas para pantallas de 601px a 992px (tablets) */
+@media (min-width: 601px) and (max-width: 992px) {
+    #rightArrowIcon {
+        font-size: 2em;
+    }
+
+    .carousel-item {
+        height: 40vh;
+    }
+
+    .features-icons-icon i {
+        font-size: 2.5rem;
+    }
+}
+
+/* Reglas para pantallas de 993px a 1200px (portátiles) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    #rightArrowIcon {
+        font-size: 2.5em;
+    }
+
+    .carousel-item {
+        height: 50vh;
+    }
+
+    .features-icons-icon i {
+        font-size: 3rem;
+    }
+}
+
+/* Reglas para pantallas de más de 1200px (monitores grandes) */
+@media (min-width: 1201px) {
+    #rightArrowIcon {
+        font-size: 3em;
+    }
+
+    .carousel-item {
+        height: 60vh;
+    }
+
+    .features-icons-icon i {
+        font-size: 3.5rem;
+    }
+}
