@@ -1,0 +1,15 @@
+#rightArrowIcon {
+    font-size: 2.5em;
+}
+
+.carousel-item {
+    height: 50vh;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+.features-icons-icon i {
+    font-size: 3rem;
+}
