@@ -94,3 +94,49 @@
     transition: box-shadow .3s ease-in-out;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .5) !important;
 }
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Reglas para pantallas de hasta 576px (teléfonos móviles) */
+@media (max-width: 576px) {
+    .card img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* Reglas para pantallas de 577px a 768px (tablets en modo retrato) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .card img {
+        height: 50%;
+        width: 100%;
+    }
+}
+
+/* Reglas para pantallas de 769px a 992px (tablets en modo paisaje y portátiles pequeños) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .card img {
+        height: 75%;
+        width: 100%;
+    }
+}
+
+/* Reglas para pantallas de 993px a 1200px (portátiles y escritorios) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .card img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* Reglas para pantallas de más de 1200px (monitores grandes) */
+@media (min-width: 1201px) {
+    .card img {
+        height: 100%;
+        width: 100%;
+    }
+}
