@@ -7,6 +7,7 @@
 }
 
 .carousel-item img {
+    height: 100%;
     object-fit: cover;
 }
 
@@ -14,8 +15,8 @@
     font-size: 3rem;
 }
 
-/* Reglas para pantallas de hasta 600px (teléfonos móviles) */
-@media (max-width: 600px) {
+/* Reglas para pantallas de hasta 576px (teléfonos móviles) */
+@media (max-width: 576px) {
     #rightArrowIcon {
         font-size: 1.5em;
     }
@@ -29,8 +30,8 @@
     }
 }
 
-/* Reglas para pantallas de 601px a 992px (tablets) */
-@media (min-width: 601px) and (max-width: 992px) {
+/* Reglas para pantallas de 577px a 768px (tablets en modo retrato) */
+@media (min-width: 577px) and (max-width: 768px) {
     #rightArrowIcon {
         font-size: 2em;
     }
@@ -44,8 +45,8 @@
     }
 }
 
-/* Reglas para pantallas de 993px a 1200px (portátiles) */
-@media (min-width: 993px) and (max-width: 1200px) {
+/* Reglas para pantallas de 769px a 992px (tablets en modo paisaje y portátiles pequeños) */
+@media (min-width: 769px) and (max-width: 992px) {
     #rightArrowIcon {
         font-size: 2.5em;
     }
@@ -59,8 +60,8 @@
     }
 }
 
-/* Reglas para pantallas de más de 1200px (monitores grandes) */
-@media (min-width: 1201px) {
+/* Reglas para pantallas de 993px a 1200px (portátiles y escritorios) */
+@media (min-width: 993px) and (max-width: 1200px) {
     #rightArrowIcon {
         font-size: 3em;
     }
@@ -71,6 +72,21 @@
 
     .features-icons-icon i {
         font-size: 3.5rem;
+    }
+}
+
+/* Reglas para pantallas de más de 1200px (monitores grandes) */
+@media (min-width: 1201px) {
+    #rightArrowIcon {
+        font-size: 3.5em;
+    }
+
+    .carousel-item {
+        height: 70vh;
+    }
+
+    .features-icons-icon i {
+        font-size: 4rem;
     }
 }
 
