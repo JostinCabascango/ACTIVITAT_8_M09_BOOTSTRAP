@@ -73,3 +73,8 @@
         font-size: 3.5rem;
     }
 }
+
+.hover-shadow:hover {
+    transition: box-shadow .3s ease-in-out;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .5) !important;
+}
